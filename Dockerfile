@@ -10,7 +10,7 @@ RUN	apt-get update ; \
 ## Install mmbtools
 RUN	apt-get install --yes git ;\
 		git clone \
-			--branch next \
+			--branch master \
 			https://github.com/longnt76/dab-scripts.git \			
 			/root/dab-scripts ;\
 		bash /root/dab-scripts/install/mmbtools-get \
