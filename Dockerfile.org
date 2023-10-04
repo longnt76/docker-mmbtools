@@ -11,7 +11,7 @@ RUN	apt-get update ; \
 RUN	apt-get install --yes git ;\
 		git clone \
 			--branch next \
-			https://github.com/longnt76/dab-scripts.git \			
+			https://github.com/opendigitalradio/dab-scripts.git \
 			/root/dab-scripts ;\
 		bash /root/dab-scripts/install/mmbtools-get \
 			--branch ${build_branch} \
